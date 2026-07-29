@@ -1,0 +1,9 @@
+import formalization_mathematics_connection_theorem_provers_lemma_canonical_lane_mathlib.GateLemmas
+namespace HautevilleHouse
+namespace formalization_mathematics_connection_theorem_provers_lemma_canonical_lane_mathlib
+structure ConstrainedTheoremClosure where
+  admissible :: intro :: constraint :: consequence :: proof ::
+theorem canonical : ConstrainedTheoremClosure :=
+  ConstrainedTheoremClosure.intro
+end formalization_mathematics_connection_theorem_provers_lemma_canonical_lane_mathlib
+end HautevilleHouse
